@@ -28,7 +28,7 @@ An ILP solver: [GLPSOL](https://en.wikibooks.org/wiki/GLPK/Using_GLPSOL) was use
 - We perform an offline timing characterization of the given neural network’s execution on the 3PC and the HGCs.
 - Optimal batching of layers and their schedule on the HGCs (considering communication overheads)
 
-<img src="https://i.ibb.co/BtBQQFd/unnamed.png">
+<img src="img/2.png">
 
 ### Evaluation
 - **Intial Approach**
@@ -40,7 +40,7 @@ An ILP solver: [GLPSOL](https://en.wikibooks.org/wiki/GLPK/Using_GLPSOL) was use
 - **Final Approach**
 The neural network models were executed using the `Pytorch v1.1.0` and the `TorchVision v0.3.0` frameworks. The `TorchProfile` library was used for timing characterizations.
 
-<img src="https://i.ibb.co/f4ng04w/unnamed1.jpg">
+<img src="img/3.png">
 
 ## Future Ideas
 - The future idea to move forward from here is to actually implement the idea of Master-Slave Algorithm mentioned above in term of an application. Currently it's just a novel idea which we proposed and experimented with - next plan is to actually implement the logic design.
