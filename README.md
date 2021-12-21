@@ -7,8 +7,7 @@ The threat of Hardware Trojans looms large on mission-critical applications. Thi
 
 We essentially employed an array of HGCs to execute the neural network instead of a single one, each executing a different layer of the network, with their executions temporally overlapping with each other. This will allow the array of HGCs to execute the application **faster** than a single HGC would.
 
-<p align="justify">
-<img src="https://i.ibb.co/tKQLzWq/overview-1.png"> </p>
+<img src="img/1.png">
 
 ### Socket Communication
 
